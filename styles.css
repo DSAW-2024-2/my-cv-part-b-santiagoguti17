@@ -90,3 +90,53 @@ li {
   padding-left: 40px;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .perfil, .educacion, .habilidades {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .img-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
+
+/* Media queries para desktop */
+
+@media (min-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+
+  .perfil, .educacion, .habilidades {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .img-container {
+    width: 120px;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
